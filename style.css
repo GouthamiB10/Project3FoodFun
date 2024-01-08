@@ -103,7 +103,7 @@ header {
 }
 
 .home .home-img {
-    flex: 1 1 9.2rem;
+    flex: 1 1 9.25rem;
 }
 
 .home .home-img img {
@@ -157,7 +157,7 @@ header {
 .slide:nth-child(1) {
     left: 0%;
     animation-delay: -1s;
-    background-image: url(./images/taste1.jpg);
+    background-image: url(./Images/taste1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -165,7 +165,7 @@ header {
 .slide:nth-child(2) {
     left: 100%;
     animation-delay: 2s;
-    background-image: url(./images/taste2.jpg);
+    background-image: url(./Images/taste2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -173,7 +173,7 @@ header {
 .slide:nth-child(3) {
     left: 100%;
     animation-delay: 5s;
-    background-image: url(./images/davide-cantelli-unsplash.jpg);
+    background-image: url(./Images/davide-cantelli-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -181,7 +181,7 @@ header {
 .slide:nth-child(4) {
     left: 100%;
     animation-delay: 8s;
-    background-image: url(./images/lily-banse--unsplash.jpg);
+    background-image: url(./Images/lily-banse--unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -408,7 +408,7 @@ form {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 25em;
+    width: 400px;
 }
 
 label {
@@ -447,6 +447,7 @@ input[type="submit"]:hover {
 }
 
 textarea {
+    caret-color: #FFB703;
     resize: none;
     border-radius: 5px;
 }
@@ -461,6 +462,10 @@ textarea:focus {
     outline: none;
     border-color: #FFB703;
     background-color: #e6e8ec;
+}
+
+input {
+    caret-color: #FFB703;
 }
 
 /* ---- Footer-Section----- */
